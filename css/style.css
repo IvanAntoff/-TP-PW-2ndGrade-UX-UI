@@ -35,6 +35,38 @@ width: 20vw;
   }
 }
 
+.nav-lateral {
+    display: flex;
+    align-content: left;
+    justify-content: left;
+    flex-direction: column;
+    flex-basis: 20vw;
+    width: 20px;
+    background: linear-gradient(#21c08b, #ab88ff);
+}
+
+.nav-lateral--ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 70vh;
+    width: 20vw;
+}
+
+.nav-lateral--li {
+    text-align: center;
+    padding-top: 10VH;
+}
+
+.main-fav {
+    background: linear-gradient(#21c08b, #ab88ff);
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    width: 100vw;
+}
+
 nav{
     display: flex;
     align-content: center;
@@ -211,12 +243,85 @@ main {
 }
 
 .destacados_img {
-width: 25vw;
-height: 30vh;
+    width: 25vw;
+    height: 30vh;
+}
+
+.destacados_img:hover {
+    width: 26vw;
+    height: 31vh;
 }
 
 .destacados_h3 {
-text-align: center;
+    text-align: center; 
+}
+
+.mejores-precios_h3 {
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+.carrusel {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 10vh;
+}
+
+.carrusel__container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    height: 28vh;
+    margin-top: 3vh;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.carrusel_img {
+    width: 15vw;
+    height: 25vh;
+    margin: 5px;
+}
+
+.carrusel_img:hover {
+    width: 16vw;
+    height: 26vh;
+    margin: 5px;
+}
+
+.carrusel_arrow {
+    padding: 12vh 2vh;
+    width: 5vw;
+    height: 5vh;
+}
+
+.carrusel_arrow:hover {
+    padding: 12vh 2vh;
+    width: 5vw;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.favoritos {
+    background-color: rgba(255, 255, 255, 0.30);
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 80vh;
+    width: 80vw;
+}
+
+.favoritos__container {
+    text-align: center;
+    margin: 3vw;
+    background-color: rgba(177, 177, 177, 0.486);
+    height: 25vh;
+    width: 70vw;
 }
 
 footer{
